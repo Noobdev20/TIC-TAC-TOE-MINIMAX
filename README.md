@@ -12,15 +12,8 @@
 - **Environment:** `.env` — convenience variables for building and running.
 
 **Build & Run (quick):**
-Load environment variables then build:
 
-```bash
-source .env
-eval "$BUILD_CMD"
-./$EXECUTABLE $RUN_ARGS
-```
-
-Or compile directly:
+Compile the project
 
 ```bash
 g++ -std=c++17 -O2 tictactoe.cpp -o tictactoe
